@@ -1,9 +1,0 @@
-<appian-plugin name="helloWorld" key="com.appian.hello">
-    <plugin-info>
-        <description>hello world</description>
-        <vendor name="Jesus pinto" url="http://www.mycompany.com" />
-        <version>1.0.0</version>
-    </plugin-info>
-    
-    <function key="hello" class="com.appian.hello.helloWorld" />
-</appian-plugin>
