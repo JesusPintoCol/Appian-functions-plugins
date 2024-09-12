@@ -1,0 +1,10 @@
+<appian-plugin name="keyGenerator" key="com.appian.key.generator">
+    <plugin-info>
+        <description>key in base 64 generator</description>
+        <vendor name="Credicorp" url="http://www.mycompany.com" />
+        <version>1.0.0</version>
+        <application-version min="17.3" max="24.3"/>
+    </plugin-info>
+    
+    <function key="aeskey" class="com.appian.key.generator.keyGenerator" />
+</appian-plugin>
