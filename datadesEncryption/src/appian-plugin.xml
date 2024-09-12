@@ -1,0 +1,10 @@
+<appian-plugin name="datadesEncryption" key="com.appian.data.desencryption.generator">
+    <plugin-info>
+        <description>desencrypt data with a aes key and the text encrypted</description>
+        <vendor name="Credicorp" url="http://www.mycompany.com" />
+        <version>1.0.0</version>
+        <application-version min="17.3" max="24.2"/>
+    </plugin-info>
+    
+    <function key="datadesencryptiongeneratorr" class="com.appian.data.desencryption.generator.datadesencryptiongenerator" />
+</appian-plugin>
