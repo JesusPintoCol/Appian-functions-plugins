@@ -1,0 +1,13 @@
+<appian-plugin name="Get actual IP" key="com.vass.ip">
+    <plugin-info>
+        <description>Get the actual ip</description>
+        <vendor name="Vass" url="http://www.vass.com" />
+        <version>1.1.1</version>
+        <application-version min="23.2.0" />
+    </plugin-info>
+    
+   
+    <function key="getIp" class="com.vass.ip.getActualIpss" />
+    
+ 
+</appian-plugin>
