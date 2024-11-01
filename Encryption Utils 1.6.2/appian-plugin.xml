@@ -1,0 +1,16 @@
+<appian-plugin name="Encryption Utils" key="com.appian.encryption.utils">
+    <plugin-info>
+        <description>Utils for ecnrypt an decrypt data with aes 256</description>
+        <vendor name="Vass" url="http://www.vass.com" />
+        <version>1.6.2</version>
+        <application-version min="23.2.0"/>
+    </plugin-info>
+    
+   
+    <function key="getkeyaes256base" class="com.appian.encryption.utils.appian_generator_key_base" />
+    <function key="getencrypttextwithkeyaes" class="com.appian.encryption.utils.appian_generator_encrypt" />
+    <function key="getdecrypttextwithkeyaes" class="com.appian.encryption.utils.appian_generator_decrypt" />
+    <function key="getpemtextencryptwithpemfile" class="com.appian.encryption.utils.appian_generator_pem_encrypt" />
+    <function key="getrandompasswordgeneratorstring" class="com.appian.encryption.utils.appian_generator_password_generator" />
+ 
+</appian-plugin>
