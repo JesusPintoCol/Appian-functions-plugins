@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_402 (IcedTea)
+
+Name: EmbedUrl/v1/EmbedUrl_en_US.properties
+SHA-256-Digest: db0tGj2Z9z1NaHKCo7usDJKzWQVQlB15hTcSo0zYYM8=
+
+Name: appian-component-plugin.xml
+SHA-256-Digest: m2Ood0EaBkIG9batjg9FtJqz8U90PsfoE7RTHfnUhiE=
+
+Name: EmbedUrl/v1/index.html
+SHA-256-Digest: r1qtdy+TEz40qduX8TLqY3zcQqdDttaIiwctxnyhFwk=
+

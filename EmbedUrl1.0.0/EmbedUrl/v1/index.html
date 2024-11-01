@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+  iframe{
+    height: 900px;
+    width: 100%;
+  }
+</style>
+</head>
+<script src='APPIAN_JS_SDK_URI'></script>
+<body>
+  <iframe  id="Iframe"  src="https://example.org" frameborder = "0"
+  allow="camera " allow="fullscreen";>
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+  <script>
+    let src;
+
+    Appian.Component.onNewValue(newValues => {
+
+      src= newValues.url;
+
+      if(src==null){
+        src="https://example.org";
+      }
+
+      document.getElementById('Iframe').src=src;
+
+
+    })
+  </script>
+
+</body>
+</html>
