@@ -1,0 +1,13 @@
+<appian-plugin name="Pem Utils" key="com.appian.pem.utils">
+    <plugin-info>
+        <description>Utilites for encrypt and decrypt text with a pem file using private and public key</description>
+        <vendor name="Vass" url="http://www.vass.com" />
+        <version>1.0.4</version>
+        <application-version min="23.2.0"/>
+    </plugin-info>
+    
+   
+    <function key="pemEncryption" class="com.appian.pem.utils.pemEncryptions" />
+    <function key="pemDecryption" class="com.appian.pem.utils.pemDecryptions" />
+ 
+</appian-plugin>
