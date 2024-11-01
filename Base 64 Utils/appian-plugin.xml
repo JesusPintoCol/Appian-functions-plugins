@@ -1,0 +1,13 @@
+<appian-plugin name="Base64 Utils" key="com.appian.base64.utils">
+    <plugin-info>
+        <description>Utilites for encode and decode strings in base 64 without length limitations</description>
+        <vendor name="Vass" url="http://www.vass.com" />
+        <version>1.0.2</version>
+        <application-version min="23.2.0"/>
+    </plugin-info>
+    
+   
+    <function key="base64EncodeString" class="com.appian.base64.utils.base64EncodeStrings" />
+    <function key="base64DecodeString" class="com.appian.base64.utils.base64DecodeStrings" />
+ 
+</appian-plugin>
